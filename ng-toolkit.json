@@ -1,0 +1,18 @@
+{
+  "universal": {
+    "project": "ngItem",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  },
+  "serverless": {
+    "provider": "aws",
+    "project": "ngItem",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
